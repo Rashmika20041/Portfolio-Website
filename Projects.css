@@ -238,21 +238,6 @@ section {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer */
 
 .footer {
@@ -373,5 +358,59 @@ section {
     100% {
         opacity: 1;
         transform: scale(1);
+    }
+}
+
+/* ---------- Mobile Responsive Styles ---------- */
+
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 5%;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .sub-title {
+        font-size: 30px;
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .sub-sub-title {
+        font-size: 18px;
+        width: 100%;
+        margin-left: 0;
+        padding: 50px 20px;
+    }
+
+    .project1 {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .col-1,
+    .col-2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .video-topic {
+        font-size: 16px;
+    }
+
+    .footer p {
+        font-size: 0.9rem;
+    }
+
+    .social-icon__link {
+        font-size: 1.5rem;
     }
 }
