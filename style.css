@@ -476,12 +476,12 @@ nav ul {
     }
 
     .home {
-        padding: 30px 5%;
+        padding: 30px 15%;
     }
 
     .home-content {
         margin-right: -10px;
-        margin-left: 15px;
+        margin-left: 30px;
         margin-top: -200px;
     }
 
@@ -490,19 +490,19 @@ nav ul {
     }
 
     .home-content h1 {
-        font-size: 19px;
+        font-size: 23px;
         margin-top: 50px;
         margin-bottom: -38px;
     }
 
     .home-content h3 {
-        font-size: 13px;
+        font-size: 15px;
         margin-top: 40px;
     }
 
     .home-content p {
-        font-size: 11px;
-        margin-top: -30px;
+        font-size: 15px;
+        margin-top: -20px;
     }
 
     .home-img {
@@ -530,12 +530,12 @@ nav ul {
     }
 
     .footer {
-        margin-top: -200px;
+        margin-top: -270px;
     }
 
     .footer h1 {
-        font-size: 19px;
-        margin-top: -10px;
+        font-size: 23px;
+        margin-top: 0px;
         margin-bottom: -30px;
     }
 
@@ -544,11 +544,11 @@ nav ul {
     }
 
     .social-icon {
-        margin-top: 30px;
-        margin-bottom: 35px;
+        margin-top: 60px;
+        margin-bottom: -50px;
     }
 
     .social-icon__link {
-        font-size: 1.9rem;
+        font-size: 2.1rem;
     }
 }
