@@ -439,9 +439,13 @@ nav ul {
         margin-left: 8px;
     }
 
+    .home {
+        padding: 30px 5%;
+    }
+
     .home-content {
         margin-right: -10px;
-        margin-left: 30px;
+        margin-left: 15px;
         margin-top: -250px;
     }
 
@@ -450,18 +454,18 @@ nav ul {
     }
 
     .home-content h1 {
-        font-size: 17px;
+        font-size: 19px;
         margin-top: 50px;
         margin-bottom: -38px;
     }
 
     .home-content h3 {
-        font-size: 10px;
+        font-size: 13px;
         margin-top: 40px;
     }
 
     .home-content p {
-        font-size: 10px;
+        font-size: 11px;
         margin-top: -30px;
     }
 
@@ -469,13 +473,12 @@ nav ul {
         width: 130px;
         height: 130px;
         margin-bottom: 270px;
+      
 
     }
 
     .home-img img {
         max-width: 180px;
-        margin-right: -20px;
-        margin-left: -10px;
     }
 
     .btn {
@@ -497,9 +500,9 @@ nav ul {
     }
 
     .footer h1 {
-        font-size: 17px;
+        font-size: 19px;
         margin-top: -10px;
-        margin-bottom: -50px;
+        margin-bottom: -30px;
     }
 
     .footer p {
@@ -508,10 +511,10 @@ nav ul {
 
     .social-icon {
         margin-top: 30px;
-        margin-bottom: 17px;
+        margin-bottom: 35px;
     }
 
     .social-icon__link {
-        font-size: 1.2rem;
+        font-size: 1.9rem;
     }
 }
