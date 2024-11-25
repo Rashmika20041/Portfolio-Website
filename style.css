@@ -428,6 +428,7 @@ nav ul {
 @media (max-width: 480px) {
     .header {
         padding: 8px 4%;
+        margin-top: 15px;
     }
 
     .logo {
@@ -446,7 +447,7 @@ nav ul {
     .home-content {
         margin-right: -10px;
         margin-left: 15px;
-        margin-top: -250px;
+        margin-top: -200px;
     }
 
     .home-content h3:nth-last-of-type(2) {
@@ -472,9 +473,7 @@ nav ul {
     .home-img {
         width: 130px;
         height: 130px;
-        margin-bottom: 270px;
-      
-
+        margin-bottom: 200px;
     }
 
     .home-img img {
