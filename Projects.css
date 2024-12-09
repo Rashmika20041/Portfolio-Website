@@ -97,7 +97,7 @@ nav ul {
 }
 
 .sub-title span {
-    background: linear-gradient(90deg, #00ff00, #13f4e2, #0f0bde, #ff00f7, #d41616, #ff00c4, #ff0000, #00ff00);
+    background: rgb(0, 254, 136);
     background-size: 400%;
     -webkit-text-fill-color: transparent;
     background-clip: text;
