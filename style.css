@@ -36,7 +36,7 @@ body {
 }
 
 .logo {
-    font-size: 27px;
+    font-size: 33px;
     color: #ffffff;
     text-decoration: none;
     font-weight: 600;
@@ -57,7 +57,7 @@ nav ul {
 .mark {
     color: #ffffff;
     margin-left: 13px;
-    font-size: 18px;
+    font-size: 20px;
     cursor: default;
 
 }
@@ -65,7 +65,7 @@ nav ul {
 
 .navbar a {
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
@@ -101,12 +101,18 @@ nav ul {
     border-top: 1px solid rgb(0, 254, 136);
 }
 
+.home {
+    margin-top: 80px;
+    justify-content: center;
+    gap: 60px;
+}
+
 .home-content {
     max-width: 600px;
 }
 
 .home-content h3 {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 40px;
@@ -120,7 +126,7 @@ nav ul {
 }
 
 .home-content h1 {
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 700;
     margin: -3px 0;
     margin-bottom: 12px;
@@ -226,6 +232,10 @@ nav ul {
     background-color: rgb(0, 254, 136);
     width: 90%;
     margin: 20px 0;
+}
+
+.footer h1 {
+    font-size: 40px;
 }
 
 .social-icon,

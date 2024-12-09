@@ -36,7 +36,7 @@ body {
 }
 
 .logo {
-    font-size: 27px;
+    font-size: 33px;
     color: #ffffff;
     text-decoration: none;
     font-weight: 600;
@@ -56,14 +56,14 @@ nav ul {
 .mark {
     color: #ffffff;
     margin-left: 13px;
-    font-size: 18px;
+    font-size: 20px;
     cursor: default;
 
 }
 
 .navbar a {
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
@@ -125,17 +125,17 @@ section {
     cursor: default;
 }
 
-.bar{
-    font-size: 20px;   
+.bar {
+    font-size: 20px;
 }
 
-.technical-bars .bar{
+.technical-bars .bar {
     margin-top: 25px;
     margin-bottom: -10px;
 }
 
 
-.info span{
+.info span {
     font-size: 13px;
     font-weight: 600;
     animation: showText 0.5s linear forwards;
@@ -143,18 +143,18 @@ section {
 
 }
 
-.progress-line{
+.progress-line {
     position: relative;
     border-radius: 10px;
     width: 75%;
     height: 5px;
     background-color: #18a6ce;
-    animation: animate 1s 1s cubic-bezier(1,0,0,1) forwards;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0, 1) forwards;
     transform: scaleX(0);
     transform-origin: left;
 }
 
-@keyframes animate{
+@keyframes animate {
     0% {
         background-position: 0%;
     }
@@ -165,50 +165,58 @@ section {
     }
 }
 
-.progress-line span{
-height:100%;
-background-color: rgb(0, 254, 136);
-position: absolute;
-border-radius: 10px;
-transform: scaleX(0);
-transform-origin: left;
-animation: animate 1s 1s cubic-bezier(1,0,0,1) forwards;
+.progress-line span {
+    height: 100%;
+    background-color: rgb(0, 254, 136);
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0, 1) forwards;
 }
 
-.progress-line.html span{
+.progress-line.html span {
     width: 90%;
 }
 
-.progress-line.css span{
+.progress-line.css span {
     width: 90%;
 }
-.progress-line.python span{
+
+.progress-line.python span {
     width: 70%;
 }
-.progress-line.php span{
+
+.progress-line.php span {
     width: 40%;
 }
-.progress-line.java span{
+
+.progress-line.java span {
     width: 50%;
 }
-.progress-line.postgresql span{
+
+.progress-line.postgresql span {
     width: 30%;
 }
-.progress-line.firebase span{
+
+.progress-line.firebase span {
     width: 40%;
 }
-.progress-line.javascript span{
+
+.progress-line.javascript span {
     width: 95%;
 }
-.progress-line.Tailwind-CSS span{
+
+.progress-line.Tailwind-CSS span {
     width: 40%;
 }
-.progress-line.c-plus-plus span{
+
+.progress-line.c-plus-plus span {
     width: 60%;
 }
 
 
-.progress-line span::after{
+.progress-line span::after {
     position: absolute;
     padding: 1px 8px;
     background-color: #0009;
@@ -222,39 +230,47 @@ animation: animate 1s 1s cubic-bezier(1,0,0,1) forwards;
 }
 
 
-.progress-line.html span::after{
+.progress-line.html span::after {
     content: "90%";
 }
 
-.progress-line.css span::after{
+.progress-line.css span::after {
     content: "90%";
 }
-.progress-line.python span::after{
+
+.progress-line.python span::after {
     content: "70%";
 }
-.progress-line.php span::after{
+
+.progress-line.php span::after {
     content: "40%";
 }
-.progress-line.java span::after{
+
+.progress-line.java span::after {
     content: "50%";
 }
-.progress-line.postgresql span::after{
+
+.progress-line.postgresql span::after {
     content: "30%";
 }
-.progress-line.firebase span::after{
+
+.progress-line.firebase span::after {
     content: "40%";
 }
-.progress-line.javascript span::after{
+
+.progress-line.javascript span::after {
     content: "95%";
 }
-.progress-line.Tailwind-CSS span::after{
+
+.progress-line.Tailwind-CSS span::after {
     content: "40%";
 }
-.progress-line.c-plus-plus span::after{
+
+.progress-line.c-plus-plus span::after {
     content: "60%";
 }
 
-.progress-line span::before{
+.progress-line span::before {
     content: "";
     position: absolute;
     width: 0;
@@ -269,11 +285,12 @@ animation: animate 1s 1s cubic-bezier(1,0,0,1) forwards;
     opacity: 0;
 }
 
-@keyframes showText{
-    0%{
+@keyframes showText {
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
@@ -286,14 +303,14 @@ animation: animate 1s 1s cubic-bezier(1,0,0,1) forwards;
     margin-top: 10px;
 }
 
-.technical-bars .col{
+.technical-bars .col {
     flex-basis: 56%;
 }
 
 /* --------Footer--------- */
 
 .footer {
-    
+
     margin-top: 70px;
     position: relative;
     width: 100%;
@@ -305,11 +322,16 @@ animation: animate 1s 1s cubic-bezier(1,0,0,1) forwards;
 }
 
 .line {
-    height: 2px; 
-    background-color: rgb(0, 254, 136); 
-    width: 90%; 
-    margin: 20px 0; 
-  }
+    height: 2px;
+    background-color: rgb(0, 254, 136);
+    width: 90%;
+    margin: 20px 0;
+}
+
+.footer h1 {
+    font-size: 40px;
+}
+
 
 .social-icon,
 .menu {
