@@ -116,7 +116,7 @@ section {
 .sub-sub-title {
     text-align: center;
     color: rgb(0, 254, 136);
-    font-size: 20px;
+    font-size: 23px;
     padding-bottom: 50px;
     padding-top: 130px;
     cursor: default;
@@ -133,8 +133,7 @@ section {
 
 
 .project1 {
-
-    font-size: 14px;
+    font-size: 16px;
     padding-bottom: 70px;
     padding-top: 100px;
     cursor: default;
