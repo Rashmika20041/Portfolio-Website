@@ -468,7 +468,7 @@ section {
 
     .col-1 {
         margin-top: -20px;
-        padding: 10px 20px 20px 20px;
+        padding: 10px 20px 550px 20px;
     }
 
     .col-1 p {
@@ -485,10 +485,12 @@ section {
     }
 
     .col-2 {
-        margin-top: 20px;
         padding: 10px 20px 10px 20px;
         margin-bottom: -150px;
-        border: 1px solid #ffffff;
        
+    }
+
+    .footer h1 {
+        font-size: 30px;
     }
 }
