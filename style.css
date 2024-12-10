@@ -492,7 +492,7 @@ nav ul {
         flex-direction: row;
         justify-content: space-between;
         padding: 8px 4%; 
-        gap: 70px;
+        gap: 80px;
         margin-top: 15px;
         max-width: 480px;
     }
@@ -518,14 +518,14 @@ nav ul {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        max-width: 480px;
+        max-width: fit-content;
         padding: 0 10px 0 0;
-        margin-left: -10px;
     }
 
     .home-content {
         margin-top: -20px;
         margin-right: 10px;
+        margin-left: 10px;
     }
 
     .home-content h3:nth-last-of-type(2) {
@@ -559,18 +559,23 @@ nav ul {
         max-width: 250px;
     }
 
+    .btn-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
     .btn {
-        max-width: 100px;
-        height: 30px;
-        margin-top: 20px;
-        font-size: 7px;
+        max-width: 130px;
+        height: 33px;
+        margin-top: 26px;
+        font-size: 10px;
         font-weight: 600;
         display: inline-block;
         padding: 10px 17px;
         letter-spacing: 1px;
         text-decoration: none;
         font-weight: 700;
-        margin-top: 20px;
     }
 
     .footer {
