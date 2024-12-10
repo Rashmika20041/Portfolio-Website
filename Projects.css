@@ -469,6 +469,7 @@ section {
     .col-1 {
         margin-top: -20px;
         padding: 10px 20px 550px 20px;
+        margin-bottom: 40px;
     }
 
     .col-1 p {
