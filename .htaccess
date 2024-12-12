@@ -1,3 +1,0 @@
-# Test rule
-RewriteEngine On
-RewriteRule ^test$ /index.html
