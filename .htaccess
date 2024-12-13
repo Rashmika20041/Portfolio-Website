@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+
+    # Turn on the rewrite engine
+    RewriteEngine On
+
+    # Specify the base directory (adjust if .htaccess is not in the root directory)
+    RewriteBase /Portfolio/
+
+    # Skip rewriting if the requested path is a directory
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Skip rewriting if the requested path with .html extension is a file
+    RewriteCond %{REQUEST_FILENAME}\.html -f
+
+    # Rewrite clean URLs to .html files
+    RewriteRule ^(.*)$ $1.html [NC,L]
+
+</IfModule>
