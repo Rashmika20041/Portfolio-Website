@@ -218,6 +218,10 @@ section {
     animation-delay: .6s;
 }
 
+.video-topic:hover {
+    color: #0ff;
+}
+
 
 /* ---------- Section 2 ---------- */
 
